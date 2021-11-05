@@ -18,16 +18,17 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
 
-<script type="text/javascript">	setTimeout(function(){
+<script type="text/javascript">	//After 3 Seconds, redirect to url
+	setTimeout(function(){
     var url = window.location.search.split('url=')[1];
     if( url ) window.location.replace(url);
-}, 3000); //After 3 Seconds, redirect to url
+}, 3000); 
 </script>
-<script type="text/javascript">
+<script type="text/javascript">  //After 4 Seconds, redirect to Bitly
   var delayInMilliseconds = 4000;
 setTimeout(function() {
   window.location.href = "https://" + "bit.ly" + window.location.pathname
-}, delayInMilliseconds); //After 4 Seconds, redirect to Bitly
+}, delayInMilliseconds);
 </script>
   </head>
   <body data-home-page="--.html" data-home-page-title="  " class="u-body u-palette-5-base">
@@ -55,3 +56,4 @@ setTimeout(function() {
       </div>
     </section>
 </body></html>
+//If url has ?url=x then, the url changes to match x. Else, the url will redirect to bit.ly/y from /y //
