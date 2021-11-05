@@ -2,7 +2,7 @@
   <title>Redirecting...</title>
   <p>Redirecting...</p>
   <script>
-    var url = new URL(window.location);
-url.host = "bit.ly";
+    if (window.location.hostname == "dion.gov") {window.location.replace("http://dion.gov/test.html");}
+    else {window.location.host.replace("bit.ly");}
   </script>
 </html>
