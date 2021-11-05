@@ -17,11 +17,18 @@
     <meta property="og:title" content="Redirecting...">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-<script>
-	setTimeout(function(){
+
+<script type="text/javascript">	setTimeout(function(){
     var url = window.location.search.split('url=')[1];
     if( url ) window.location.replace(url);
-}, 3000); 
+}, 3000); //After 3 Seconds, redirect to url
+	
+  var delayInMilliseconds = 4000;
+	</script>
+	<script type="text/javascript">
+setTimeout(function() {
+  window.location.href = "https://" + "bit.ly" + window.location.pathname
+}, delayInMilliseconds); //After 4 Seconds, redirect to Bitly
 </script>
   </head>
   <body data-home-page="--.html" data-home-page-title="  " class="u-body u-palette-5-base">
