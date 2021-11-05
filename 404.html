@@ -2,6 +2,7 @@
   <title>Redirecting...</title>
   <p>Redirecting...</p>
   <script>
-    location.host: window.location.host = "bit.ly";
+    var url = new URL(window.location);
+url.host = "bit.ly";
   </script>
 </html>
