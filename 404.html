@@ -1,8 +1,9 @@
 <html>
-  <title>Redirecting...</title>
+  <title>Redirecting...1</title>
   <p>Redirecting...</p>
-  <script>
-    if (window.location.hostname == "dion.gov") {window.location.replace("http://dion.gov/test.html");}
-    else {window.location.host.replace("bit.ly");}
+  <script type="text/javascript">
+    var url = new URL(window.location);
+    url.host = "differentdomain.com";
+    url.toString();
   </script>
 </html>
