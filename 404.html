@@ -18,10 +18,10 @@
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
 
-	<script type="text/javascript">  //After 2 Seconds, redirect to Bitly
+	<script type="text/javascript">  //After 2 Seconds, redirect to URL
   var delayInMilliseconds = 2000;
 setTimeout(function() {
-  window.location.href = "https://" + "bit.ly" + window.location.pathname
+  window.location.href = window.location.pathname
 }, delayInMilliseconds);
 </script>
 	
@@ -51,4 +51,3 @@ setTimeout(function() {
       </div>
     </section>
 </body></html>
-//If url has ?url=x then, the url changes to match x. Else, the url will redirect to bit.ly/y from /y //
