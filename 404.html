@@ -20,12 +20,12 @@
 
 <script type="text/javascript">	//After 3 Seconds, redirect to url
 	setTimeout(function(){
-    var url = window.location.search.split('url=')[1];
+    var url = window.location.search.split('url=');
     if( url ) window.location.replace(url);
-}, 3000); 
+}, 1000); 
 </script>
 <script type="text/javascript">  //After 4 Seconds, redirect to Bitly
-  var delayInMilliseconds = 4000;
+  var delayInMilliseconds = 2000;
 setTimeout(function() {
   window.location.href = "https://" + "bit.ly" + window.location.pathname
 }, delayInMilliseconds);
