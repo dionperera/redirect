@@ -6,4 +6,6 @@ This website is a redirection page that will copy the path of the url, and use i
 
 The redirection page will hold users for a few seconds before redirecting, allowing visitors to close the page before the redirection occurs. 
 
-If you want to check out a redirection page that copies the path of a URL, and allows you to visit any website (not just bit.ly links), then look at my other repository (redirect_url).
+If you want a redirection page that copies the path of the URL, and uses that as the full URL (mydomain.com/http://example.com --> http://example.com), then check out my other repository (https://github.com/dionperera/redirect-url). 
+
+The html redirection pages are customizable, only the javascript script needs to remain the same. You can modify the script to another url, it redirects to bit.ly by default. 
