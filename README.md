@@ -8,4 +8,4 @@ The redirection page will hold users for a few seconds before redirecting, allow
 
 If you want a redirection page that copies the path of the URL, and uses that as the full URL (mydomain.com/http://example.com --> http://example.com), then check out my other repository (https://github.com/dionperera/redirect-url). 
 
-The html redirection pages are customizable, only the javascript script needs to remain the same. You can modify the script to another url, it redirects to bit.ly by default. 
+The html redirection pages are customizable, only the javascript script (lines 21-26 on 404.html) need to remain the same. You can modify the script to another url, it redirects to bit.ly by default. 
