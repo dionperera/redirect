@@ -1,5 +1,6 @@
 # redirect
 This is a dynamic redirection page for link.dionperera.com / dion.gq. 
+
 All requests will go through "404.html," as every request will have a different path. 
 This website is a redirection page that will copy the path of the url, and use it with "bit.ly".
 
